@@ -1,0 +1,89 @@
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #241811;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.site-header .navbar {
+  min-height: 82px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fffaf4;
+  text-decoration: none;
+}
+
+.brand-logo:hover {
+  color: #f0b35a;
+}
+
+.brand-icon {
+  font-size: 30px;
+}
+
+.brand-text {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.brand-text span {
+  color: #e6a04b;
+}
+
+.site-header .nav-link {
+  color: #fffaf4;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.site-header .nav-link:hover {
+  color: #e6a04b;
+}
+
+.header-order-button {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background-color: #c66b2b;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.header-order-button:hover {
+  background-color: #a9521c;
+  color: white;
+}
+
+.site-header .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.site-header .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+@media (max-width: 991.98px) {
+  .site-header .navbar-collapse {
+    padding: 12px 0 16px;
+  }
+
+  .site-header .navbar-nav {
+    align-items: stretch !important;
+  }
+
+  .header-order-button {
+    text-align: center;
+    margin-top: 8px;
+  }
+}
